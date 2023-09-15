@@ -30,5 +30,3 @@ RUN unzip duckdb_cli-linux-amd64.zip
 COPY ./*.sql .
 
 RUN ./duckdb < admin.sql
-RUN ./duckdb < buildings.sql
-RUN ./duckdb < places.sql
